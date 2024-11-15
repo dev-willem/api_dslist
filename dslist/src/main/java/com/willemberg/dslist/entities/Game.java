@@ -11,6 +11,7 @@ import lombok.*;
 @Setter
 @EqualsAndHashCode
 public class Game {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

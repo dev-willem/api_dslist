@@ -13,6 +13,7 @@ import lombok.*;
 @Setter
 @EqualsAndHashCode
 public class Belonging {
+
     @EmbeddedId
     private BelongingPK id = new BelongingPK();
 
